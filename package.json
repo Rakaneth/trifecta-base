@@ -1,0 +1,30 @@
+{
+  "name": "trifecta-base",
+  "version": "0.0.1",
+  "description": "A database and UI for the Trifecta LARP games",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakaneth/trifecta-base.git"
+  },
+  "author": "Rakaneth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakaneth/trifecta-base/issues"
+  },
+  "homepage": "https://github.com/Rakaneth/trifecta-base#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5"
+  },
+  "dependencies": {
+    "mongodb": "^3.4.1",
+    "vue": "^2.6.11"
+  }
+}
